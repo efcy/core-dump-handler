@@ -12,6 +12,7 @@ env:
   IMAGE_NAMESPACE: icdh
 
 jobs:
+  if: false
   push-quay:
     name: Build and push manifest
     runs-on: ubuntu-20.04
