@@ -6,6 +6,7 @@ on:
       - main
 
 jobs:
+  if: false
   release:
     runs-on: ubuntu-latest
     steps:
